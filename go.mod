@@ -2,11 +2,9 @@ module github.com/TerraDharitri/drt-go-chain-vm-common
 
 go 1.20
 
-replace github.com/gogo/protobuf => github.com/TerraDharitri/protobuf v0.0.1
-
 require (
-	github.com/TerraDharitri/drt-go-chain-core v0.0.1
-	github.com/TerraDharitri/drt-go-chain-logger v0.0.1
+	github.com/TerraDharitri/drt-go-chain-core v0.0.3
+	github.com/TerraDharitri/drt-go-chain-logger v0.0.2
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/stretchr/testify v1.10.0
 )
