@@ -1,7 +1,7 @@
-github.com/TerraDharitri/drt-go-chain-core v0.0.5 h1:mL9NA+vqPZZ8jM9fkP8p0HGq0aFnfI+KbzyatFzgp1U=
-github.com/TerraDharitri/drt-go-chain-core v0.0.5/go.mod h1:EOd4CmJQTz5RWSMxYgkeX/2HIB/Hd1R9Wrd1aR6gwO0=
-github.com/TerraDharitri/drt-go-chain-logger v0.0.3 h1:Q8Ff5sC/VRAVw9ZwzciYDSQEDcVdnFVJpFZ+nqVIISQ=
-github.com/TerraDharitri/drt-go-chain-logger v0.0.3/go.mod h1:0LDt8MpTLZtLK9a0WQfRVL9Tu0MwMX9Bfar9PyBGQZ4=
+github.com/TerraDharitri/drt-go-chain-core v0.0.4 h1:p2QoqgfpIGkYnD7HeqJr/c3V61+XCxsZyS3+e5n8hr8=
+github.com/TerraDharitri/drt-go-chain-core v0.0.4/go.mod h1:PKLsccnKH+kJ1eQwS/nvldzuR1Fg3jskXCvV/vLKhEU=
+github.com/TerraDharitri/drt-go-chain-logger v0.0.4 h1:l9xMFJwiEb4SoFVNbRc8eZldUZTa1dT9xlKYvV8q7QI=
+github.com/TerraDharitri/drt-go-chain-logger v0.0.4/go.mod h1:9uNDsynRp45cAAUuDBkv4ahCuH7fA/rHy5rkH5OzU2A=
 github.com/TerraDharitri/protobuf v0.0.1 h1:cxiQ6ZZLcavw0S/rPeGWl6tTkVn38r6Qo3FEL+NVWSI=
 github.com/TerraDharitri/protobuf v0.0.1/go.mod h1:nR0KaR7D76i4HeO5ynVn0k2AhPtkjlgURJ3/w2MSCtg=
 github.com/aead/siphash v1.0.1/go.mod h1:Nywa3cDsYNNK3gaciGTWPwHt0wlpNV15vwmswBAUSII=
@@ -44,8 +44,8 @@ github.com/golang/protobuf v1.4.0-rc.4.0.20200313231945-b860323f09d0/go.mod h1:W
 github.com/golang/protobuf v1.4.0/go.mod h1:jodUvKwWbYaEsadDk5Fwe5c77LiNKVO9IDvqG2KuDX0=
 github.com/golang/protobuf v1.4.2/go.mod h1:oDoupMAO8OvCJWAcko0GGGIgR6R6ocIYbsSw735rRwI=
 github.com/golang/protobuf v1.5.0/go.mod h1:FsONVRAS9T7sI+LIUmWTfcYkHO4aIWwzhcaSAoJOfIk=
-github.com/golang/protobuf v1.5.2 h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=
-github.com/golang/protobuf v1.5.2/go.mod h1:XVQd3VNwM+JqD3oG2Ue2ip4fOMUkwXdXDdiuN0vRsmY=
+github.com/golang/protobuf v1.5.3 h1:KhyjKVUg7Usr/dYsdSqoFveMYd5ko72D+zANwlG1mmg=
+github.com/golang/protobuf v1.5.3/go.mod h1:XVQd3VNwM+JqD3oG2Ue2ip4fOMUkwXdXDdiuN0vRsmY=
 github.com/golang/snappy v0.0.4/go.mod h1:/XxbfmMg8lxefKM7IXC3fBNl/7bRcc72aCRzEWrmP2Q=
 github.com/google/go-cmp v0.3.0/go.mod h1:8QqcDgzrUqlUb/G2PQTWiueGozuR1884gddMywk6iLU=
 github.com/google/go-cmp v0.3.1/go.mod h1:8QqcDgzrUqlUb/G2PQTWiueGozuR1884gddMywk6iLU=
