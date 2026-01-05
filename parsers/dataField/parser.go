@@ -97,6 +97,8 @@ func (odp *operationDataFieldParser) parse(dataField []byte, sender, receiver []
 		return parseBlockingOperationDCDT(args, function)
 	case core.BuiltInFunctionDCDTNFTCreate, core.BuiltInFunctionDCDTNFTBurn, core.BuiltInFunctionDCDTNFTAddQuantity:
 		return parseQuantityOperationNFT(args, function)
+	case core.DCDTMetaDataRecreate, core.DCDTMetaDataUpdate, core.DCDTSetNewURIs, core.DCDTModifyCreator, core.DCDTModifyRoyalties, core.BuiltInFunctionDCDTNFTAddURI, core.BuiltInFunctionDCDTNFTUpdateAttributes:
+		return parseModifyOperationNFT(args, function)
 	case core.RelayedTransaction, core.RelayedTransactionV2:
 		if ignoreRelayed {
 			return NewResponseParseDataAsRelayed()
@@ -242,6 +244,28 @@ func parseQuantityOperationNFT(args [][]byte, funcName string) *ResponseParseDat
 	}
 
 	responseData.DCDTValues = append(responseData.DCDTValues, value)
+	responseData.Tokens = append(responseData.Tokens, tokenIdentifier)
+
+	return responseData
+}
+
+func parseModifyOperationNFT(args [][]byte, funcName string) *ResponseParseData {
+	responseData := &ResponseParseData{
+		Operation: funcName,
+	}
+
+	if len(args) < minArgumentsQuantityOperationNFT {
+		return responseData
+	}
+
+	token := string(args[argsTokenPosition])
+	if !isASCIIString(token) {
+		return responseData
+	}
+
+	nonce := big.NewInt(0).SetBytes(args[argsNoncePosition]).Uint64()
+	tokenIdentifier := computeTokenIdentifier(token, nonce)
+
 	responseData.Tokens = append(responseData.Tokens, tokenIdentifier)
 
 	return responseData
