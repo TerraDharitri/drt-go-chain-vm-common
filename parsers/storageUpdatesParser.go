@@ -3,7 +3,7 @@ package parsers
 import (
 	"encoding/hex"
 
-	vmcommon "github.com/TerraDharitri/drt-go-chain-vm-common"
+	"github.com/TerraDharitri/drt-go-chain-vm-common"
 )
 
 type storageUpdatesParser struct {

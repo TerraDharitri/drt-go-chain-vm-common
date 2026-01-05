@@ -30,7 +30,7 @@ const (
 	REWAInDCDTMultiTransferFlag                 core.EnableEpochFlag = "REWAInDCDTMultiTransferFlag"
 )
 
-// allFlags must have all flags used by mx-chain-vm-common-go in the current version
+// allFlags must have all flags used by drt-go-chain-vm-common in the current version
 var allFlags = []core.EnableEpochFlag{
 	GlobalMintBurnFlag,
 	DCDTTransferRoleFlag,

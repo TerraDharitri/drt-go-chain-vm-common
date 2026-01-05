@@ -5,7 +5,7 @@ import (
 	"errors"
 	"math/big"
 
-	vmcommon "github.com/TerraDharitri/drt-go-chain-vm-common"
+	"github.com/TerraDharitri/drt-go-chain-vm-common"
 )
 
 // ErrOperationNotPermitted indicates an operation rejected due to insufficient
