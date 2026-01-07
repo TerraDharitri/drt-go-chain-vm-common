@@ -1,5 +1,5 @@
 <div style="text-align:center">
-  <img src="https://raw.githubusercontent.com/TerraDharitri/drt-go-chain/master/TerraDharitri-logo.svg" alt="DharitrI"/>
+  <img src="https://raw.githubusercontent.com/TerraDharitri/dharitri-assets/main/Dharitri-Logo2.svg" alt="Dharitri"/>
 </div>  
 
 <br>
