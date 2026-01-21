@@ -1,12 +1,12 @@
 module github.com/TerraDharitri/drt-go-chain-vm-common
 
-go 1.23.7
+go 1.23
 
-replace github.com/gogo/protobuf => github.com/TerraDharitri/protobuf v1.3.2
+replace github.com/gogo/protobuf => github.com/TerraDharitri/protobuf v0.0.1
 
 require (
-	github.com/TerraDharitri/drt-go-chain-core v0.1.1
-	github.com/TerraDharitri/drt-go-chain-logger v0.1.1
+	github.com/TerraDharitri/drt-go-chain-core v1.0.1
+	github.com/TerraDharitri/drt-go-chain-logger v1.0.0
 	github.com/mitchellh/mapstructure v1.4.1
 	github.com/stretchr/testify v1.7.0
 )
