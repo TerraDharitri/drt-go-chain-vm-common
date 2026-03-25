@@ -5,6 +5,11 @@ on:
     branches: [ main, rc/*, feat/* ]
     types: [ opened, ready_for_review ]
   push:
+    branches:
+      - main
+      - rc/*
+      - feat/*
+      - dev-divesh
   workflow_dispatch:
 
 jobs:
